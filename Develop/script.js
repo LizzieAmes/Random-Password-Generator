@@ -1,4 +1,12 @@
 // Assignment code here
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numeric = "0123456789";
+var specialCharacter = "!#$%&'()*+,-./:;<=>?[]^_`{|}~";
+
+function generatePassword() {
+  var passwordLength = prompt("Enter desired password length (between 8 and 128 characters.):");
+}
 
 
 // Get references to the #generate element
